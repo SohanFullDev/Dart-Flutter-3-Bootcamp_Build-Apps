@@ -1,6 +1,6 @@
 void main(){
-  var alpha = 0;
-  var beta = 0;
+  var alpha = 1;
+  var beta = 1;
   /*
   print(alpha);
   //alpha = alpha + 1;
@@ -20,7 +20,8 @@ void main(){
 //++after the var, increment +1 happens
 //after the assignment
 
-  beta = alpha++;
+  //beta = alpha--;
+  beta = --alpha;
   print(beta);//0
   print(alpha);//1
 
